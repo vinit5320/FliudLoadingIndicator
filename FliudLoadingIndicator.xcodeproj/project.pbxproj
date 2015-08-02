@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B78F4C1B6E171800F3FB95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B78F4B1B6E171800F3FB95 /* AppDelegate.swift */; };
+		15B78F4E1B6E171800F3FB95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B78F4D1B6E171800F3FB95 /* ViewController.swift */; };
+		15B78F511B6E171800F3FB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B78F4F1B6E171800F3FB95 /* Main.storyboard */; };
+		15B78F531B6E171800F3FB95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B78F521B6E171800F3FB95 /* Images.xcassets */; };
+		15B78F561B6E171800F3FB95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B78F541B6E171800F3FB95 /* LaunchScreen.xib */; };
+		15B78F621B6E171800F3FB95 /* FliudLoadingIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B78F611B6E171800F3FB95 /* FliudLoadingIndicatorTests.swift */; };
+		15B78F6D1B6E1D3400F3FB95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B78F6C1B6E1D3400F3FB95 /* Foundation.framework */; };
+		15B78F6F1B6E1D3C00F3FB95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B78F6E1B6E1D3C00F3FB95 /* UIKit.framework */; };
+		15B78F711B6E1D4300F3FB95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B78F701B6E1D4300F3FB95 /* CoreGraphics.framework */; };
+		65DBDE4B979F8A7FE757F165 /* libPods-FliudLoadingIndicator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F4C6D1F1D37A7E42A17D11 /* libPods-FliudLoadingIndicator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15B78F5C1B6E171800F3FB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15B78F3E1B6E171800F3FB95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15B78F451B6E171800F3FB95;
+			remoteInfo = FliudLoadingIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15B78F461B6E171800F3FB95 /* FliudLoadingIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FliudLoadingIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B78F4A1B6E171800F3FB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B78F4B1B6E171800F3FB95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15B78F4D1B6E171800F3FB95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15B78F501B6E171800F3FB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15B78F521B6E171800F3FB95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15B78F551B6E171800F3FB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15B78F5B1B6E171800F3FB95 /* FliudLoadingIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FliudLoadingIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B78F601B6E171800F3FB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B78F611B6E171800F3FB95 /* FliudLoadingIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FliudLoadingIndicatorTests.swift; sourceTree = "<group>"; };
+		15B78F6C1B6E1D3400F3FB95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15B78F6E1B6E1D3C00F3FB95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15B78F701B6E1D4300F3FB95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15B78F741B6E228100F3FB95 /* FliudLoadingIndicator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FliudLoadingIndicator-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		75F4C6D1F1D37A7E42A17D11 /* libPods-FliudLoadingIndicator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FliudLoadingIndicator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC02DF46E7D096DB1CF62CC9 /* Pods-FliudLoadingIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliudLoadingIndicator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FliudLoadingIndicator/Pods-FliudLoadingIndicator.debug.xcconfig"; sourceTree = "<group>"; };
+		DB39BCA88AE1338E4F6411DF /* Pods-FliudLoadingIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliudLoadingIndicator.release.xcconfig"; path = "Pods/Target Support Files/Pods-FliudLoadingIndicator/Pods-FliudLoadingIndicator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15B78F431B6E171800F3FB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B78F711B6E1D4300F3FB95 /* CoreGraphics.framework in Frameworks */,
+				15B78F6F1B6E1D3C00F3FB95 /* UIKit.framework in Frameworks */,
+				15B78F6D1B6E1D3400F3FB95 /* Foundation.framework in Frameworks */,
+				65DBDE4B979F8A7FE757F165 /* libPods-FliudLoadingIndicator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B78F581B6E171800F3FB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B78F3D1B6E171800F3FB95 = {
+			isa = PBXGroup;
+			children = (
+				15B78F481B6E171800F3FB95 /* FliudLoadingIndicator */,
+				15B78F5E1B6E171800F3FB95 /* FliudLoadingIndicatorTests */,
+				15B78F471B6E171800F3FB95 /* Products */,
+				6109B0171BF39CC18547D279 /* Pods */,
+				CD5A6E7FF9E4BE5B2F160738 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15B78F471B6E171800F3FB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B78F461B6E171800F3FB95 /* FliudLoadingIndicator.app */,
+				15B78F5B1B6E171800F3FB95 /* FliudLoadingIndicatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B78F481B6E171800F3FB95 /* FliudLoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				15B78F4B1B6E171800F3FB95 /* AppDelegate.swift */,
+				15B78F4D1B6E171800F3FB95 /* ViewController.swift */,
+				15B78F4F1B6E171800F3FB95 /* Main.storyboard */,
+				15B78F521B6E171800F3FB95 /* Images.xcassets */,
+				15B78F541B6E171800F3FB95 /* LaunchScreen.xib */,
+				15B78F741B6E228100F3FB95 /* FliudLoadingIndicator-Bridging-Header.h */,
+				15B78F491B6E171800F3FB95 /* Supporting Files */,
+			);
+			path = FliudLoadingIndicator;
+			sourceTree = "<group>";
+		};
+		15B78F491B6E171800F3FB95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15B78F4A1B6E171800F3FB95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15B78F5E1B6E171800F3FB95 /* FliudLoadingIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				15B78F611B6E171800F3FB95 /* FliudLoadingIndicatorTests.swift */,
+				15B78F5F1B6E171800F3FB95 /* Supporting Files */,
+			);
+			path = FliudLoadingIndicatorTests;
+			sourceTree = "<group>";
+		};
+		15B78F5F1B6E171800F3FB95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15B78F601B6E171800F3FB95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6109B0171BF39CC18547D279 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC02DF46E7D096DB1CF62CC9 /* Pods-FliudLoadingIndicator.debug.xcconfig */,
+				DB39BCA88AE1338E4F6411DF /* Pods-FliudLoadingIndicator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD5A6E7FF9E4BE5B2F160738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B78F701B6E1D4300F3FB95 /* CoreGraphics.framework */,
+				15B78F6E1B6E1D3C00F3FB95 /* UIKit.framework */,
+				15B78F6C1B6E1D3400F3FB95 /* Foundation.framework */,
+				75F4C6D1F1D37A7E42A17D11 /* libPods-FliudLoadingIndicator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15B78F451B6E171800F3FB95 /* FliudLoadingIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B78F651B6E171800F3FB95 /* Build configuration list for PBXNativeTarget "FliudLoadingIndicator" */;
+			buildPhases = (
+				95D8853CB8BD7EBC120565CA /* Check Pods Manifest.lock */,
+				15B78F421B6E171800F3FB95 /* Sources */,
+				15B78F431B6E171800F3FB95 /* Frameworks */,
+				15B78F441B6E171800F3FB95 /* Resources */,
+				792360FC0D58C34CB82B9A14 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FliudLoadingIndicator;
+			productName = FliudLoadingIndicator;
+			productReference = 15B78F461B6E171800F3FB95 /* FliudLoadingIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15B78F5A1B6E171800F3FB95 /* FliudLoadingIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B78F681B6E171800F3FB95 /* Build configuration list for PBXNativeTarget "FliudLoadingIndicatorTests" */;
+			buildPhases = (
+				15B78F571B6E171800F3FB95 /* Sources */,
+				15B78F581B6E171800F3FB95 /* Frameworks */,
+				15B78F591B6E171800F3FB95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15B78F5D1B6E171800F3FB95 /* PBXTargetDependency */,
+			);
+			name = FliudLoadingIndicatorTests;
+			productName = FliudLoadingIndicatorTests;
+			productReference = 15B78F5B1B6E171800F3FB95 /* FliudLoadingIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15B78F3E1B6E171800F3FB95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ViNiT;
+				TargetAttributes = {
+					15B78F451B6E171800F3FB95 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					15B78F5A1B6E171800F3FB95 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 15B78F451B6E171800F3FB95;
+					};
+				};
+			};
+			buildConfigurationList = 15B78F411B6E171800F3FB95 /* Build configuration list for PBXProject "FliudLoadingIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15B78F3D1B6E171800F3FB95;
+			productRefGroup = 15B78F471B6E171800F3FB95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15B78F451B6E171800F3FB95 /* FliudLoadingIndicator */,
+				15B78F5A1B6E171800F3FB95 /* FliudLoadingIndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15B78F441B6E171800F3FB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B78F511B6E171800F3FB95 /* Main.storyboard in Resources */,
+				15B78F561B6E171800F3FB95 /* LaunchScreen.xib in Resources */,
+				15B78F531B6E171800F3FB95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B78F591B6E171800F3FB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		792360FC0D58C34CB82B9A14 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FliudLoadingIndicator/Pods-FliudLoadingIndicator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D8853CB8BD7EBC120565CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B78F421B6E171800F3FB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B78F4E1B6E171800F3FB95 /* ViewController.swift in Sources */,
+				15B78F4C1B6E171800F3FB95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B78F571B6E171800F3FB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B78F621B6E171800F3FB95 /* FliudLoadingIndicatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15B78F5D1B6E171800F3FB95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15B78F451B6E171800F3FB95 /* FliudLoadingIndicator */;
+			targetProxy = 15B78F5C1B6E171800F3FB95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15B78F4F1B6E171800F3FB95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B78F501B6E171800F3FB95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15B78F541B6E171800F3FB95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B78F551B6E171800F3FB95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15B78F631B6E171800F3FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15B78F641B6E171800F3FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15B78F661B6E171800F3FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC02DF46E7D096DB1CF62CC9 /* Pods-FliudLoadingIndicator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FliudLoadingIndicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FliudLoadingIndicator-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		15B78F671B6E171800F3FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB39BCA88AE1338E4F6411DF /* Pods-FliudLoadingIndicator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FliudLoadingIndicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FliudLoadingIndicator-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		15B78F691B6E171800F3FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FliudLoadingIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FliudLoadingIndicator.app/FliudLoadingIndicator";
+			};
+			name = Debug;
+		};
+		15B78F6A1B6E171800F3FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FliudLoadingIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FliudLoadingIndicator.app/FliudLoadingIndicator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B78F411B6E171800F3FB95 /* Build configuration list for PBXProject "FliudLoadingIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B78F631B6E171800F3FB95 /* Debug */,
+				15B78F641B6E171800F3FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B78F651B6E171800F3FB95 /* Build configuration list for PBXNativeTarget "FliudLoadingIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B78F661B6E171800F3FB95 /* Debug */,
+				15B78F671B6E171800F3FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B78F681B6E171800F3FB95 /* Build configuration list for PBXNativeTarget "FliudLoadingIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B78F691B6E171800F3FB95 /* Debug */,
+				15B78F6A1B6E171800F3FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15B78F3E1B6E171800F3FB95 /* Project object */;
+}
