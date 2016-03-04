@@ -56,16 +56,16 @@ class ViewController: UIViewController {
                 self.exampleContainerView = myView
         })
         
-        if let imageUrl = NSURL(string: "http://swinggolfireland.com/wp-content/uploads/2014/09/OldHead_7PanB.jpg") {
+        if let imageUrl = NSURL(string: "http://static1.gamespot.com/uploads/original/123/1239113/2928873-iphone6.jpg") {
             let imageRequest: NSURLRequest = NSURLRequest(URL: imageUrl)
             let queue: NSOperationQueue = NSOperationQueue.mainQueue()
-            NSURLConnection.sendAsynchronousRequest(imageRequest, queue: queue, completionHandler:{ (response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
+            NSURLConnection.sendAsynchronousRequest(imageRequest, queue: queue, completionHandler:{ (response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
                 if data != nil {
                     self.titleLabels.text = "Complete!"
                     self.exampleContainerView.hidden = true
                     self.startAnime.enabled = true
-                    println("done")
-                    self.myImage.image = UIImage(data: data)
+                    print("done")
+                    self.myImage.image = UIImage(data: data!)
                     self.myImage.layer.borderWidth = 2.0
                     self.myImage.layer.borderColor = UIColor.whiteColor().CGColor
                     
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
                     self.titleLabels.text = "Error Downloading"
                     self.exampleContainerView.hidden = true
                     self.startAnime.enabled = true
-                    println("error")
+                    print("error")
                 }
             })
         }
@@ -82,12 +82,12 @@ class ViewController: UIViewController {
     
     func setUpBackground() {
         
-        if ((self.gradient) != nil) {
+   /*     if ((self.gradient) != nil) {
             self.gradient.removeFromSuperlayer()
             self.gradient = nil
-        }
+        } */
         
-        var tempLayer: CAGradientLayer = CAGradientLayer()
+        let tempLayer: CAGradientLayer = CAGradientLayer()
         tempLayer.frame = self.view.bounds
         tempLayer.colors = [UIColor(netHex: 0x53cf84).CGColor, UIColor(netHex: 0x53cf84).CGColor, UIColor(netHex: 0x2aa581).CGColor, UIColor(netHex: 0x1b9680).CGColor]
         tempLayer.locations = [NSNumber(float: 0.0), NSNumber(float: 0.5), NSNumber(float: 0.8), NSNumber(float: 1.0)]
